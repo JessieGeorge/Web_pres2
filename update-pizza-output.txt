@@ -1,0 +1,20 @@
+PIZZA AFTER UPDATING YIELD:
+
+[Running] node "c:\Users\Jessie\workspaceWeb\pres2\update-pizza.js"
+{
+  _index: 'recipes',
+  _type: '_doc',
+  _id: 'uJEIp30BR6Yx29b_lKGq',
+  _version: 3,
+  _seq_no: 4,
+  _primary_term: 1,
+  found: true,
+  _source: {
+    name: 'Pizza',
+    yield: '2',
+    ingredients: [ [Object], [Object], [Object] ],
+    directions: 'Step 1: Toss dough. Step 2: Add toppings.'
+  }
+}
+
+[Done] exited with code=0 in 1.478 seconds

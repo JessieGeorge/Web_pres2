@@ -1,0 +1,92 @@
+[Running] node "c:\Users\Jessie\workspaceWeb\pres2\search-recipes.js"
+
+
+--------------------------------------------
+
+
+ALL RECIPES:
+RECIPE ID: tpFUpn0BR6Yx29b_4aEv NAME: Shepherd's Pie
+RECIPE ID: t5FUpn0BR6Yx29b_4qFT NAME: Steak Tacos
+RECIPE ID: uJEIp30BR6Yx29b_lKGq NAME: Pizza
+
+
+--------------------------------------------
+
+
+RECIPES WHOSE NAMES INCLUDE THE WORD steak - NOT CASE SENSITIVE:
+RECIPE ID: t5FUpn0BR6Yx29b_4qFT NAME: Steak Tacos
+
+
+--------------------------------------------
+
+
+RECIPES WHOSE NAMES ARE LIKE p*:
+RECIPE ID: tpFUpn0BR6Yx29b_4aEv NAME: Shepherd's Pie
+RECIPE ID: uJEIp30BR6Yx29b_lKGq NAME: Pizza
+
+
+--------------------------------------------
+
+
+RECIPES WHOSE NAMES ARE LIKE p*a:
+RECIPE ID: uJEIp30BR6Yx29b_lKGq NAME: Pizza
+
+
+--------------------------------------------
+
+
+RECIPES WHOSE NAMES ARE LIKE pitza:
+RECIPE ID: uJEIp30BR6Yx29b_lKGq NAME: Pizza
+
+
+--------------------------------------------
+
+
+RECIPES THAT USE INGREDIENTS beef AND potato:
+RECIPE ID: tpFUpn0BR6Yx29b_4aEv NAME: Shepherd's Pie
+RECIPE ID: t5FUpn0BR6Yx29b_4qFT NAME: Steak Tacos
+
+
+PRINTING body:
+{
+  took: 0,
+  timed_out: false,
+  _shards: { total: 1, successful: 1, skipped: 0, failed: 0 },
+  hits: {
+    total: { value: 2, relation: 'eq' },
+    max_score: 0.9400072,
+    hits: [ [Object], [Object] ]
+  }
+}
+
+
+PRINTING body.hits.hits:
+[
+  {
+    _index: 'recipes',
+    _type: '_doc',
+    _id: 'tpFUpn0BR6Yx29b_4aEv',
+    _score: 0.9400072,
+    _source: {
+      name: "Shepherd's Pie",
+      yield: 2,
+      ingredients: [Array],
+      directions: 'Step 1: Cook beef. Step 2: Fry potatoes. Step 3: Salt as desired.'
+    }
+  },
+  {
+    _index: 'recipes',
+    _type: '_doc',
+    _id: 't5FUpn0BR6Yx29b_4qFT',
+    _score: 0.8527901,
+    _source: {
+      name: 'Steak Tacos',
+      yield: 1,
+      ingredients: [Array],
+      directions: 'Step 1: Put fillings in taco shell.'
+    }
+  }
+]
+
+[Done] exited with code=0 in 3.241 seconds
+

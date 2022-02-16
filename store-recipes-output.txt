@@ -1,0 +1,54 @@
+[Running] node "c:\Users\Jessie\workspaceWeb\pres2\store-recipes.js"
+{
+  body: {
+    name: 'instance-0000000000',
+    cluster_name: 'eb684c0fd33e4d628eac8d7a1747cf81',
+    cluster_uuid: 'nI3D19vcRGeP5P9siVlHQA',
+    version: {
+      number: '7.16.0',
+      build_flavor: 'default',
+      build_type: 'docker',
+      build_hash: '6fc81662312141fe7691d7c1c91b8658ac17aa0d',
+      build_date: '2021-12-02T15:46:35.697268109Z',
+      build_snapshot: false,
+      lucene_version: '8.10.1',
+      minimum_wire_compatibility_version: '6.8.0',
+      minimum_index_compatibility_version: '6.0.0-beta1'
+    },
+    tagline: 'You Know, for Search'
+  },
+  statusCode: 200,
+  headers: {
+    'content-encoding': 'gzip',
+    'content-length': '355',
+    'content-type': 'application/json; charset=UTF-8',
+    'x-cloud-request-id': '9A69_WvLQNyounwMVGFilg',
+    'x-elastic-product': 'Elasticsearch',
+    'x-found-handling-cluster': 'eb684c0fd33e4d628eac8d7a1747cf81',
+    'x-found-handling-instance': 'instance-0000000000',
+    date: 'Fri, 10 Dec 2021 21:39:50 GMT'
+  },
+  meta: {
+    context: null,
+    request: { params: [Object], options: {}, id: 1 },
+    name: 'elasticsearch-js',
+    connection: {
+      url: 'https://eb684c0fd33e4d628eac8d7a1747cf81.us-central1.gcp.cloud.es.io/',
+      id: 'https://eb684c0fd33e4d628eac8d7a1747cf81.us-central1.gcp.cloud.es.io/',
+      headers: {},
+      deadCount: 0,
+      resurrectTimeout: 0,
+      _openRequests: 0,
+      status: 'alive',
+      roles: [Object]
+    },
+    attempts: 0,
+    aborted: false
+  }
+}
+
+[Done] exited with code=0 in 1.753 seconds
+
+[Running] node "c:\Users\Jessie\workspaceWeb\pres2\store-recipes.js"
+
+[Done] exited with code=0 in 2.067 seconds
